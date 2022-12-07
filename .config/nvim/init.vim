@@ -42,6 +42,10 @@ let g:python3_host_prog = '/usr/bin/python3'
 " make bootup faster
 let g:node_host_prog = '/usr/lib/node_modules/neovim/bin/cli.js'
 
+" perl provider config
+" 0 : disable it
+let g:loaded_perl_provider = 0
+
 call plug#begin("/home/ss/.config/nvim/plugged")
 
 Plug 'mkitt/tabline.vim'                                    " Tabline-Vim Plugin
