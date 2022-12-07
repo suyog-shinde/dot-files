@@ -25,6 +25,6 @@ alias cp='cp --recursive --remove-destination'
 alias rm='rm --recursive --force'
 
 # Media
-alias stats='mpv ~/Tutorials/Math/Statistics\ 110/'
-alias fu='mpv /mnt/HDD/DC++/TV\ Series/Futurama/'
-alias bbt='mpv /mnt/HDD/DC++/TV\ Series/The\ Big\ Bang\ Theory/'
+# alias stats='mpv ~/Tutorials/Math/Statistics\ 110/'
+# alias fu='mpv /mnt/HDD/DC++/TV\ Series/Futurama/'
+# alias bbt='mpv /mnt/HDD/DC++/TV\ Series/The\ Big\ Bang\ Theory/'
