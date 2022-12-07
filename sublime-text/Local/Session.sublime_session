@@ -1,0 +1,483 @@
+{
+	"file_history":
+	[
+		"/home/ss/.bashrc",
+		"/tmp/tmpqyxtev/ index.html",
+		"/tmp/tmp7tobv1/ index.html",
+		"/tmp/tmp9224p9/ README.md",
+		"/tmp/tmpppgs3a/ README.md",
+		"/home/ss/pkgs.txt",
+		"/mnt/HDD/DC++/Softwares/Arch-Backup/.config/nvim/init.vim",
+		"/home/ss/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/ss/.config/sublime-text/Packages/User/Preferences.sublime-settings"
+	],
+	"folder_history":
+	[
+		"/mnt/HDD/DC++/Softwares/Arch-Backup/.config/nvim",
+		"/home/ss"
+	],
+	"last_version": 4143,
+	"last_window_id": 5,
+	"log_indexing": false,
+	"next_update_check": 1670345737,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			48.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 426.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/ss/.bashrc",
+				"/home/ss/pkgs.txt"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 216.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "Package Control Messages\n========================\n\nSublimerge 3\n------------\n\n  Sublimerge 3 (beta) has just been installed. Thanks for trying it out!\n\n  It is highly recommended to restart Sublime Text before first use.\n  ------------------------------------------------------------------\n\n  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n  !!                                                                                                       !!\n  !!                NOTE: THIS IS A BETA VERSION. PLEASE REPORT ANY BUGS YOU MAY ENCOUNTER.                !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!     http://www.sublimerge.com/support.html                                support@sublimerge.com      !!\n  !!                                                                                                       !!\n  !!     Issue Tracker: https://bitbucket.org/borysforytarz/sublimerge-3/issues?status=new&status=open     !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!     Please visit http://www.sublimerge.com/sm3/docs/ for more information.                            !!\n  !!                                                                                                       !!\n  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n\n  The first steps after installation\n  ==================================\n\n  1. By default Sublimerge's colors theme conforms to default Sublime Text theme. If you are using some\n     custom theme and find the colors poorly visible, you may need to change them.\n\n  2. If you're on Windows and want to use VCS-related commands, you may need to configure the executable\n     path for your VCS. Linux and OS X users with non-standard VCS installation may need to configure this too.\n\n\n  Please visit http://www.sublimerge.com/sm3/docs/configuration.html for more information about configuration.\n\n\n\n  Simplified usage instructions\n  =============================\n\n  In file view:\n\n      [ctrl]+[alt]+[d]                      - display Quick Panel with commands available for current view\n\n\n  In diff view:\n\n      Windows/Linux:\n\n      [ctrl]+[down]                         - select next change\n      [ctrl]+[up]                           - select previous change\n    * [ctrl]+[left]                         - copy selected change (or active line) to left from right\n    * [ctrl]+[right]                        - copy selected change (or active line) to right from left\n      [ctrl]+[shift]+[left]                 - copy all changes to left from right\n      [ctrl]+[shift]+[right]                - copy all changes to right from left\n\n      OSX:\n\n      [alt]+[down]                          - select next change\n      [alt]+[up]                            - select previous change\n    * [alt]+[left]                          - copy selected change (or active line) to left from right\n    * [alt]+[right]                         - copy selected change (or active line) to right from left\n      [alt]+[shift]+[left]                  - copy all changes to left from right\n      [alt]+[shift]+[right]                 - copy all changes to right from left\n\n      Common:\n\n      [f3]                                  - swap panels\n      [f4]                                  - show changes navigator\n      [f5]                                  - recompare buffers\n\n    * - if change is selected the command will copy its whole contents, otherwise will copy only the focused line\n\n\n  In directories diff view:\n\n      [down]                              - select next file/directory\n      [up]                                - select previous file/directory\n      [left]                              - copy file/directory from right to left\n      [right]                             - copy file/directory from left to right\n      [enter]                             - enter sub directory / compare text files\n      [backspace]                         - enter parent directory\n\n\n      Windows/Linux:\n\n      [ctrl]+[down]                       - select next different file/directory\n      [ctrl]+[up]                         - select previous different file/directory\n\n\n      OS X:\n\n      [alt]+[down]                        - select next different file/directory\n      [alt]+[up]                          - select previous different file/directory\n\n\n      For convenience Sublimerge also supports standard OS X keyboard shortcuts for directories navigation:\n\n      [cmd]+[down]                        - enter sub directory / compare text files\n      [cmd]+[up]                          - enter parent directory\n\n\n\n  End-User License Agreement (EULA)\n  =================================\n\n  1. LICENSES\n      SUBLIMERGE is licensed as follows:\n      a) Evaluation time.\n          You can evaluate SUBLIMERGE freely for 90 days. Later you will need to purchase\n          a license for continued use.\n      b) Installation and Usage.\n          Licenses are per user and valid for use on all supported operating systems.\n          License keys may be used on multiple computers and operating systems, provided\n          the license key holder is the primary user. Businesses must purchase at least\n          as many licenses as the number of people using SUBLIMERGE.\n      c) Backup Copies.\n          You may make copies of the license key and/or SUBLIMERGE for backup and archival\n          purposes.\n      d) Evaluation time.\n          You can evaluate SUBLIMERGE freely for 90 days. Later you will need to purchase\n          a license for continued use.\n\n  2. ILLEGAL USAGE\n      Any illegal usage of SUBLIMERGE, including reverse engineering, using unauthorized license \n      keys, creating keygens and cracks is prohibited and will be subject for prosecution.\n\n  3. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS\n      a) Maintenance of Copyright Notices.\n          You must not remove or alter any copyright notices on any copy of SUBLIMERGE.\n\n      b) Distribution.\n          You may not distribute or sell license keys or SUBLIMERGE to third parties.\n          Licenses will be revoked if distributed or sold to third parties.\n\n      c) Rental.\n          You may not rent, lease, or lend the license key or SUBLIMERGE.\n\n  4. COPYRIGHT\n      All title, including but not limited to copyrights, in and to SUBLIMERGE and any copies\n      thereof are owned by BORYS FORYTARZ (AUTHOR).\n\n  5. REFUND POLICY\n      Refunds are not available. Because of this, before purchasing a license, you can evaluate\n      SUBLIMERGE without any functionality limitations for 90 days. Later you will need to\n      purchase a license.\n\n  6. NO WARRANTIES\n      AUTHOR expressly disclaims any warranty for SUBLIMERGE, which is provided\n      'as is' without any express or implied warranty of any kind, including but not limited\n      to any warranties of merchantability, non-infringement, or fitness of a particular\n      purpose.\n\n  7. LIMITATION OF LIABILITY\n      In no event shall AUTHOR be liable for any damages due to use of SUBLIMERGE,\n      to the maximum extent permitted by law. This includes without limitation, lost profits,\n      business interruption, or lost information. In no event will AUTHOR be liable\n      for loss of data or for indirect, special, incidental, consequential (including lost\n      profit), or other damages. AUTHOR shall have no liability with respect to the\n      content of SUBLIMERGE or any part thereof, including but not limited to errors or\n      omissions contained therein, libel, trademark rights, business interruption, loss of\n      privacy or the disclosure of confidential information.\n\n\n\n  More information\n  ================\n\n  For more information, troubleshooting, customizing settings and more, please visit www.sublimerge.com\n\n\n  By the way...\n  =============\n\n  Take a break from your work and play my BF's Draughts on your iOS device!\n  Available on the App Store! :)\n\n  http://www.bfdraughts.com/as/",
+					"settings":
+					{
+						"buffer_size": 8460,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "Package Control Messages\n========================\n\nSublimerge 3\n------------\n\n  Sublimerge 3 (beta) has just been installed. Thanks for trying it out!\n\n  It is highly recommended to restart Sublime Text before first use.\n  ------------------------------------------------------------------\n\n  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n  !!                                                                                                       !!\n  !!                NOTE: THIS IS A BETA VERSION. PLEASE REPORT ANY BUGS YOU MAY ENCOUNTER.                !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!     http://www.sublimerge.com/support.html                                support@sublimerge.com      !!\n  !!                                                                                                       !!\n  !!     Issue Tracker: https://bitbucket.org/borysforytarz/sublimerge-3/issues?status=new&status=open     !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!     Please visit http://www.sublimerge.com/sm3/docs/ for more information.                            !!\n  !!                                                                                                       !!\n  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n\n  The first steps after installation\n  ==================================\n\n  1. By default Sublimerge's colors theme conforms to default Sublime Text theme. If you are using some\n     custom theme and find the colors poorly visible, you may need to change them.\n\n  2. If you're on Windows and want to use VCS-related commands, you may need to configure the executable\n     path for your VCS. Linux and OS X users with non-standard VCS installation may need to configure this too.\n\n\n  Please visit http://www.sublimerge.com/sm3/docs/configuration.html for more information about configuration.\n\n\n\n  Simplified usage instructions\n  =============================\n\n  In file view:\n\n      [ctrl]+[alt]+[d]                      - display Quick Panel with commands available for current view\n\n\n  In diff view:\n\n      Windows/Linux:\n\n      [ctrl]+[down]                         - select next change\n      [ctrl]+[up]                           - select previous change\n    * [ctrl]+[left]                         - copy selected change (or active line) to left from right\n    * [ctrl]+[right]                        - copy selected change (or active line) to right from left\n      [ctrl]+[shift]+[left]                 - copy all changes to left from right\n      [ctrl]+[shift]+[right]                - copy all changes to right from left\n\n      OSX:\n\n      [alt]+[down]                          - select next change\n      [alt]+[up]                            - select previous change\n    * [alt]+[left]                          - copy selected change (or active line) to left from right\n    * [alt]+[right]                         - copy selected change (or active line) to right from left\n      [alt]+[shift]+[left]                  - copy all changes to left from right\n      [alt]+[shift]+[right]                 - copy all changes to right from left\n\n      Common:\n\n      [f3]                                  - swap panels\n      [f4]                                  - show changes navigator\n      [f5]                                  - recompare buffers\n\n    * - if change is selected the command will copy its whole contents, otherwise will copy only the focused line\n\n\n  In directories diff view:\n\n      [down]                              - select next file/directory\n      [up]                                - select previous file/directory\n      [left]                              - copy file/directory from right to left\n      [right]                             - copy file/directory from left to right\n      [enter]                             - enter sub directory / compare text files\n      [backspace]                         - enter parent directory\n\n\n      Windows/Linux:\n\n      [ctrl]+[down]                       - select next different file/directory\n      [ctrl]+[up]                         - select previous different file/directory\n\n\n      OS X:\n\n      [alt]+[down]                        - select next different file/directory\n      [alt]+[up]                          - select previous different file/directory\n\n\n      For convenience Sublimerge also supports standard OS X keyboard shortcuts for directories navigation:\n\n      [cmd]+[down]                        - enter sub directory / compare text files\n      [cmd]+[up]                          - enter parent directory\n\n\n\n  End-User License Agreement (EULA)\n  =================================\n\n  1. LICENSES\n      SUBLIMERGE is licensed as follows:\n      a) Evaluation time.\n          You can evaluate SUBLIMERGE freely for 90 days. Later you will need to purchase\n          a license for continued use.\n      b) Installation and Usage.\n          Licenses are per user and valid for use on all supported operating systems.\n          License keys may be used on multiple computers and operating systems, provided\n          the license key holder is the primary user. Businesses must purchase at least\n          as many licenses as the number of people using SUBLIMERGE.\n      c) Backup Copies.\n          You may make copies of the license key and/or SUBLIMERGE for backup and archival\n          purposes.\n      d) Evaluation time.\n          You can evaluate SUBLIMERGE freely for 90 days. Later you will need to purchase\n          a license for continued use.\n\n  2. ILLEGAL USAGE\n      Any illegal usage of SUBLIMERGE, including reverse engineering, using unauthorized license \n      keys, creating keygens and cracks is prohibited and will be subject for prosecution.\n\n  3. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS\n      a) Maintenance of Copyright Notices.\n          You must not remove or alter any copyright notices on any copy of SUBLIMERGE.\n\n      b) Distribution.\n          You may not distribute or sell license keys or SUBLIMERGE to third parties.\n          Licenses will be revoked if distributed or sold to third parties.\n\n      c) Rental.\n          You may not rent, lease, or lend the license key or SUBLIMERGE.\n\n  4. COPYRIGHT\n      All title, including but not limited to copyrights, in and to SUBLIMERGE and any copies\n      thereof are owned by BORYS FORYTARZ (AUTHOR).\n\n  5. REFUND POLICY\n      Refunds are not available. Because of this, before purchasing a license, you can evaluate\n      SUBLIMERGE without any functionality limitations for 90 days. Later you will need to\n      purchase a license.\n\n  6. NO WARRANTIES\n      AUTHOR expressly disclaims any warranty for SUBLIMERGE, which is provided\n      'as is' without any express or implied warranty of any kind, including but not limited\n      to any warranties of merchantability, non-infringement, or fitness of a particular\n      purpose.\n\n  7. LIMITATION OF LIABILITY\n      In no event shall AUTHOR be liable for any damages due to use of SUBLIMERGE,\n      to the maximum extent permitted by law. This includes without limitation, lost profits,\n      business interruption, or lost information. In no event will AUTHOR be liable\n      for loss of data or for indirect, special, incidental, consequential (including lost\n      profit), or other damages. AUTHOR shall have no liability with respect to the\n      content of SUBLIMERGE or any part thereof, including but not limited to errors or\n      omissions contained therein, libel, trademark rights, business interruption, loss of\n      privacy or the disclosure of confidential information.\n\n\n\n  More information\n  ================\n\n  For more information, troubleshooting, customizing settings and more, please visit www.sublimerge.com\n\n\n  By the way...\n  =============\n\n  Take a break from your work and play my BF's Draughts on your iOS device!\n  Available on the App Store! :)\n\n  http://www.bfdraughts.com/as/"
+							},
+							"MwEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAAD8AAAAAAAAAAAAAAD8AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAACWAAAAAAAAAAAAAACWAAAAAAAAAJcAAAAAAAAAAAAAAJcAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAADcAAAAAAAAAAAAAADcAAAAAAAAAN0AAAAAAAAAAAAAAN0AAAAAAAAAIQEAAAAAAAAAAAAAIQEAAAAAAAAiAQAAAAAAAAAAAAAiAQAAAAAAACMBAAAAAAAAAAAAACMBAAAAAAAAkAEAAAAAAAAAAAAAkAEAAAAAAACRAQAAAAAAAAAAAACRAQAAAAAAAP4BAAAAAAAAAAAAAP4BAAAAAAAA/wEAAAAAAAAAAAAA/wEAAAAAAABsAgAAAAAAAAAAAABsAgAAAAAAAG0CAAAAAAAAAAAAAG0CAAAAAAAA2gIAAAAAAAAAAAAA2gIAAAAAAADbAgAAAAAAAAAAAADbAgAAAAAAAEgDAAAAAAAAAAAAAEgDAAAAAAAASQMAAAAAAAAAAAAASQMAAAAAAAC2AwAAAAAAAAAAAAC2AwAAAAAAALcDAAAAAAAAAAAAALcDAAAAAAAAJAQAAAAAAAAAAAAAJAQAAAAAAAAlBAAAAAAAAAAAAAAlBAAAAAAAAJIEAAAAAAAAAAAAAJIEAAAAAAAAkwQAAAAAAAAAAAAAkwQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAEFAAAAAAAAAAAAAAEFAAAAAAAAbgUAAAAAAAAAAAAAbgUAAAAAAABvBQAAAAAAAAAAAABvBQAAAAAAANwFAAAAAAAAAAAAANwFAAAAAAAA3QUAAAAAAAAAAAAA3QUAAAAAAABKBgAAAAAAAAAAAABKBgAAAAAAAEsGAAAAAAAAAAAAAEsGAAAAAAAAuAYAAAAAAAAAAAAAuAYAAAAAAAC5BgAAAAAAAAAAAAC5BgAAAAAAACYHAAAAAAAAAAAAACYHAAAAAAAAJwcAAAAAAAAAAAAAJwcAAAAAAAAoBwAAAAAAAAAAAAAoBwAAAAAAACkHAAAAAAAAAAAAACkHAAAAAAAATQcAAAAAAAAAAAAATQcAAAAAAABOBwAAAAAAAAAAAABOBwAAAAAAAHIHAAAAAAAAAAAAAHIHAAAAAAAAcwcAAAAAAAAAAAAAcwcAAAAAAAB0BwAAAAAAAAAAAAB0BwAAAAAAANsHAAAAAAAAAAAAANsHAAAAAAAA3AcAAAAAAAAAAAAA3AcAAAAAAAAuCAAAAAAAAAAAAAAuCAAAAAAAAC8IAAAAAAAAAAAAAC8IAAAAAAAAMAgAAAAAAAAAAAAAMAgAAAAAAACYCAAAAAAAAAAAAACYCAAAAAAAAJkIAAAAAAAAAAAAAJkIAAAAAAAACAkAAAAAAAAAAAAACAkAAAAAAAAJCQAAAAAAAAAAAAAJCQAAAAAAAAoJAAAAAAAAAAAAAAoJAAAAAAAACwkAAAAAAAAAAAAACwkAAAAAAAB5CQAAAAAAAAAAAAB5CQAAAAAAAHoJAAAAAAAAAAAAAHoJAAAAAAAAewkAAAAAAAAAAAAAewkAAAAAAAB8CQAAAAAAAAAAAAB8CQAAAAAAAH0JAAAAAAAAAAAAAH0JAAAAAAAAnAkAAAAAAAAAAAAAnAkAAAAAAACdCQAAAAAAAAAAAACdCQAAAAAAALwJAAAAAAAAAAAAALwJAAAAAAAAvQkAAAAAAAAAAAAAvQkAAAAAAAC+CQAAAAAAAAAAAAC+CQAAAAAAAM0JAAAAAAAAAAAAAM0JAAAAAAAAzgkAAAAAAAAAAAAAzgkAAAAAAADPCQAAAAAAAAAAAADPCQAAAAAAADkKAAAAAAAAAAAAADkKAAAAAAAAOgoAAAAAAAAAAAAAOgoAAAAAAAA7CgAAAAAAAAAAAAA7CgAAAAAAADwKAAAAAAAAAAAAADwKAAAAAAAASwoAAAAAAAAAAAAASwoAAAAAAABMCgAAAAAAAAAAAABMCgAAAAAAAE0KAAAAAAAAAAAAAE0KAAAAAAAAYQoAAAAAAAAAAAAAYQoAAAAAAABiCgAAAAAAAAAAAABiCgAAAAAAAGMKAAAAAAAAAAAAAGMKAAAAAAAAowoAAAAAAAAAAAAAowoAAAAAAACkCgAAAAAAAAAAAACkCgAAAAAAAOgKAAAAAAAAAAAAAOgKAAAAAAAA6QoAAAAAAAAAAAAA6QoAAAAAAABPCwAAAAAAAAAAAABPCwAAAAAAAFALAAAAAAAAAAAAAFALAAAAAAAAtgsAAAAAAAAAAAAAtgsAAAAAAAC3CwAAAAAAAAAAAAC3CwAAAAAAAAgMAAAAAAAAAAAAAAgMAAAAAAAACQwAAAAAAAAAAAAACQwAAAAAAABaDAAAAAAAAAAAAABaDAAAAAAAAFsMAAAAAAAAAAAAAFsMAAAAAAAAXAwAAAAAAAAAAAAAXAwAAAAAAABmDAAAAAAAAAAAAABmDAAAAAAAAGcMAAAAAAAAAAAAAGcMAAAAAAAAaAwAAAAAAAAAAAAAaAwAAAAAAACoDAAAAAAAAAAAAACoDAAAAAAAAKkMAAAAAAAAAAAAAKkMAAAAAAAA7QwAAAAAAAAAAAAA7QwAAAAAAADuDAAAAAAAAAAAAADuDAAAAAAAAFQNAAAAAAAAAAAAAFQNAAAAAAAAVQ0AAAAAAAAAAAAAVQ0AAAAAAAC7DQAAAAAAAAAAAAC7DQAAAAAAALwNAAAAAAAAAAAAALwNAAAAAAAADQ4AAAAAAAAAAAAADQ4AAAAAAAAODgAAAAAAAAAAAAAODgAAAAAAAF8OAAAAAAAAAAAAAF8OAAAAAAAAYA4AAAAAAAAAAAAAYA4AAAAAAABhDgAAAAAAAAAAAABhDgAAAAAAAG4OAAAAAAAAAAAAAG4OAAAAAAAAbw4AAAAAAAAAAAAAbw4AAAAAAABwDgAAAAAAAAAAAABwDgAAAAAAAKkOAAAAAAAAAAAAAKkOAAAAAAAAqg4AAAAAAAAAAAAAqg4AAAAAAADuDgAAAAAAAAAAAADuDgAAAAAAAO8OAAAAAAAAAAAAAO8OAAAAAAAALg8AAAAAAAAAAAAALg8AAAAAAAAvDwAAAAAAAAAAAAAvDwAAAAAAADAPAAAAAAAAAAAAADAPAAAAAAAAoQ8AAAAAAAAAAAAAoQ8AAAAAAACiDwAAAAAAAAAAAACiDwAAAAAAAKMPAAAAAAAAAAAAAKMPAAAAAAAApA8AAAAAAAAAAAAApA8AAAAAAAC/DwAAAAAAAAAAAAC/DwAAAAAAAMAPAAAAAAAAAAAAAMAPAAAAAAAAwQ8AAAAAAAAAAAAAwQ8AAAAAAAAHEAAAAAAAAAAAAAAHEAAAAAAAAAgQAAAAAAAAAAAAAAgQAAAAAAAAUhAAAAAAAAAAAAAAUhAAAAAAAABTEAAAAAAAAAAAAABTEAAAAAAAAKUQAAAAAAAAAAAAAKUQAAAAAAAAphAAAAAAAAAAAAAAphAAAAAAAAD4EAAAAAAAAAAAAAD4EAAAAAAAAPkQAAAAAAAAAAAAAPkQAAAAAAAATREAAAAAAAAAAAAATREAAAAAAABOEQAAAAAAAAAAAABOEQAAAAAAAJARAAAAAAAAAAAAAJARAAAAAAAAkREAAAAAAAAAAAAAkREAAAAAAACSEQAAAAAAAAAAAACSEQAAAAAAAJMRAAAAAAAAAAAAAJMRAAAAAAAApxEAAAAAAAAAAAAApxEAAAAAAACoEQAAAAAAAAAAAACoEQAAAAAAAKkRAAAAAAAAAAAAAKkRAAAAAAAA+REAAAAAAAAAAAAA+REAAAAAAAD6EQAAAAAAAAAAAAD6EQAAAAAAAE4SAAAAAAAAAAAAAE4SAAAAAAAATxIAAAAAAAAAAAAATxIAAAAAAABQEgAAAAAAAAAAAABQEgAAAAAAAFESAAAAAAAAAAAAAFESAAAAAAAAXBIAAAAAAAAAAAAAXBIAAAAAAABdEgAAAAAAAAAAAABdEgAAAAAAAF4SAAAAAAAAAAAAAF4SAAAAAAAArhIAAAAAAAAAAAAArhIAAAAAAACvEgAAAAAAAAAAAACvEgAAAAAAAAMTAAAAAAAAAAAAAAMTAAAAAAAABBMAAAAAAAAAAAAABBMAAAAAAAAFEwAAAAAAAAAAAAAFEwAAAAAAAAYTAAAAAAAAAAAAAAYTAAAAAAAAcRMAAAAAAAAAAAAAcRMAAAAAAAByEwAAAAAAAAAAAAByEwAAAAAAAHMTAAAAAAAAAAAAAHMTAAAAAAAAxxMAAAAAAAAAAAAAxxMAAAAAAADIEwAAAAAAAAAAAADIEwAAAAAAAAoUAAAAAAAAAAAAAAoUAAAAAAAACxQAAAAAAAAAAAAACxQAAAAAAAAMFAAAAAAAAAAAAAAMFAAAAAAAAA0UAAAAAAAAAAAAAA0UAAAAAAAADhQAAAAAAAAAAAAADhQAAAAAAAAxFAAAAAAAAAAAAAAxFAAAAAAAADIUAAAAAAAAAAAAADIUAAAAAAAAVRQAAAAAAAAAAAAAVRQAAAAAAABWFAAAAAAAAAAAAABWFAAAAAAAAFcUAAAAAAAA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"
+						]
+					]
+				},
+				{
+					"file": "/home/ss/.bashrc",
+					"settings":
+					{
+						"buffer_size": 452,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							1,
+							"left_delete",
+							null,
+							"AQAAAMkAAAAAAAAAyQAAAAAAAAABAAAAMg",
+							"AQAAAAAAAAABAAAAygAAAAAAAADKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": "6"
+							},
+							"AQAAAMkAAAAAAAAAygAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAyQAAAAAAAADJAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 426.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/ss",
+				"/home/ss/.pkg",
+				"/home/ss/.pkg/myproject",
+				"/home/ss/.pkg/myproject2"
+			],
+			"file_history":
+			[
+				"/home/ss/.bashrc",
+				"/home/ss/pkgs.txt"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/ss"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8460,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										8460,
+										8460
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"tab_width": 2,
+									"translate_tabs_to_spaces": true,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1901.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/ss/.bashrc",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 452,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										202,
+										202
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,1920,1029,1920,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 216.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
