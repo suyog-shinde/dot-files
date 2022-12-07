@@ -81,7 +81,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 
 nmap <F8> :TagbarToggle<CR>
-nmap <F9> :TransparentToggle<CR>
+" nmap <F9> :TransparentToggle<CR>
 
 " Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
@@ -123,6 +123,7 @@ let g:airline_theme='ayu_mirage'
 " let g:airline_theme='base16_gruvbox_dark_medium'
 
 " air-line tabline extension
+let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#left_sep = ' '
