@@ -53,10 +53,14 @@ Plug 'chun-yang/auto-pairs'                                 " Auto Pairs Plugin
 Plug 'yggdroot/indentline'                                  " IndentLine plugin
 Plug 'ntpeters/vim-better-whitespace'				        " Trim Whitespaces Plugin
 Plug 'godlygeek/tabular'                                    " Tabular text alignment
+Plug 'junegunn/fzf.vim'                                     " fzf plugin
 Plug 'sheerun/vim-polyglot'                                 " Vim-Polyglot
 Plug 'http://github.com/tpope/vim-surround'                 " Surrounding ysw)
 Plug 'scrooloose/nerdtree'                                  " NERDTree Plugin
+" Plug 'https://github.com/preservim/nerdcommenter'           " NERDCommenter
 Plug 'https://github.com/tpope/vim-commentary'              " For Commenting gcc & gc
+Plug 'https://github.com/tpope/vim-fugitive'                " Vim Fugitive
+Plug 'https://github.com/airblade/vim-gitgutter'            " Vim gitgutter
 Plug 'https://github.com/vim-airline/vim-airline'           " vim-airline Status bar
 Plug 'vim-airline/vim-airline-themes'                       " vim-airline-themes
 Plug 'https://github.com/ap/vim-css-color'                  " CSS Color Preview
