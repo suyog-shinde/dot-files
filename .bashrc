@@ -21,7 +21,7 @@ alias update='yay -Syu --devel --timeupdate'
 alias clean='yay --yay --clean; yay -Scc'
 alias sd='shutdown --poweroff'
 alias rb='shutdown --reboot'
-alias cp='cp --recursive --remove-destination --update'
+alias cp='cp --recursive --remove-destination'
 alias rm='rm --recursive --force'
 
 # Media
