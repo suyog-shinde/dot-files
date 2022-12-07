@@ -59,7 +59,7 @@ Plug 'https://github.com/ap/vim-css-color'                  " CSS Color Preview
 Plug 'machakann/vim-highlightedyank'                        " vim-highlightedyank
 Plug 'itchyny/vim-cursorword'                               " vim-hightlight_under_cursor
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Auto Completion
-Plug 'https://github.com/tc50cal/vim-terminal'              " Vim Terminal
+" Plug 'https://github.com/tc50cal/vim-terminal'              " Vim Terminal
 Plug 'https://github.com/preservim/tagbar'                  " Tagbar for code navigation
 Plug 'nvim-tree/nvim-web-devicons'                          " Fork of Developer Icons for Tabs
 Plug 'romgrk/barbar.nvim'                                   " Tabs plugin
@@ -139,4 +139,3 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
-

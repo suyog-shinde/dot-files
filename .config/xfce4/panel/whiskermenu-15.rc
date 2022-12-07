@@ -1,5 +1,5 @@
-favorites=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,spotify-adblock.desktop,sublime_text.desktop,firefox.desktop,mpv.desktop,jupyter-notebook.desktop,galculator.desktop,org.xfce.mousepad.desktop,xfce4-terminal.desktop
-recent=xfce4-terminal-emulator.desktop,xfce4-file-manager.desktop,nvim.desktop,xfce4-mime-settings.desktop,xfce4-terminal.desktop,firefox.desktop,xfce4-terminal-settings.desktop,xfce-ui-settings.desktop,galculator.desktop,sublime_text.desktop,thunar-settings.desktop,org.xfce.mousepad.desktop,spotify-adblock.desktop
+favorites=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,spotify-adblock.desktop,sublime_text.desktop,firefox.desktop,mpv.desktop,jupyter-notebook.desktop,galculator.desktop,org.xfce.mousepad.desktop
+recent=xfce4-terminal-emulator.desktop,xfce4-file-manager.desktop,nvim.desktop,xfce4-mime-settings.desktop,firefox.desktop,xfce-ui-settings.desktop,galculator.desktop,sublime_text.desktop,thunar-settings.desktop,org.xfce.mousepad.desktop,spotify-adblock.desktop
 button-icon=archlinux-logo
 button-single-row=false
 show-button-title=false
