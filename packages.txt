@@ -42,6 +42,7 @@ make
 mariadb
 mesa
 mesa-utils
+mlocate
 mousepad
 mpv
 mtools

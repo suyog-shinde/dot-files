@@ -1,5 +1,2 @@
-# # # # # # # # # # # # # # 
-#                         #
-# Arch Linux Config File  #
-#                         #
-# # # # # # # # # # # # # # 
+# Arch Linux Configuration 
+Personal Configuration Setup for Arch Linux
