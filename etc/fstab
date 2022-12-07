@@ -12,7 +12,7 @@ UUID=B211-3B09      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,cod
 UUID=2e30bf09-4e78-49b3-b965-4aea60bc3547	none      	swap      	defaults  	0 0
 
 # Windows /dev/nvme0n1p5
-UUID=D2C89875C8985995	/mnt/Windows	ntfs	defaults	0 2	
+UUID=D2C89875C8985995	/mnt/Windows	ntfs	defaults	0 2
 
 # HDD /dev/sda2
 UUID=B4E0854BE08514B0	/mnt/HDD	ntfs	defaults	0 2
