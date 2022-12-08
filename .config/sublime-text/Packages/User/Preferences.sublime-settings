@@ -1,9 +1,14 @@
 {
 	"ignored_packages":
 	[
+		"Six",
 		"Vintage",
+		"Vintageous",
 	],
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Monokai.sublime-color-scheme",
-	"font_size": 15,
+	"color_scheme": "ayu-dark.sublime-color-scheme",
+	"font_face": "Hack Nerd Font",
+	// "font_face": "Source Code Pro Regular",
+	"font_size": 13,
+	"neovintageous_build_version": 12700,
 }

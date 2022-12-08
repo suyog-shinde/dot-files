@@ -5,9 +5,14 @@
 	],
 	"installed_packages":
 	[
-		"FileIcons",
+		"A File Icon",
+		"AutoFileName",
+		"ayu",
+		"Git",
+		"NeoVintageous",
 		"Package Control",
-		"Sublimerge 3",
-		"Terminal",
+		"SFTP",
+		"SideBarEnhancements",
+		"Terminus",
 	],
 }

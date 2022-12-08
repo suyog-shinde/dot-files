@@ -35,6 +35,12 @@
 " uses xlip as system clipboard
 set clipboard+=unnamedplus
 
+" lua integration
+" lua print('hello lua user')
+
+" lua script for auto downloading vimplug
+lua require('vimplug')
+
 " python provider config
 let g:python3_host_prog = '/usr/bin/python3'
 
@@ -52,32 +58,42 @@ let g:loaded_ruby_provider = 0
 
 call plug#begin("/home/ss/.config/nvim/plugged")
 
-Plug 'mkitt/tabline.vim'                                    " Tabline-Vim Plugin
-Plug 'chun-yang/auto-pairs'                                 " Auto Pairs Plugin
-Plug 'yggdroot/indentline'                                  " IndentLine plugin
-Plug 'ntpeters/vim-better-whitespace'				        " Trim Whitespaces Plugin
-Plug 'godlygeek/tabular'                                    " Tabular text alignment
-Plug 'junegunn/fzf.vim'                                     " fzf plugin
-Plug 'sheerun/vim-polyglot'                                 " Vim-Polyglot
-Plug 'http://github.com/tpope/vim-surround'                 " Surrounding ysw)
-Plug 'scrooloose/nerdtree'                                  " NERDTree Plugin
-" Plug 'https://github.com/preservim/nerdcommenter'           " NERDCommenter
-Plug 'https://github.com/tpope/vim-commentary'              " For Commenting gcc & gc
-Plug 'https://github.com/tpope/vim-fugitive'                " Vim Fugitive
-Plug 'https://github.com/airblade/vim-gitgutter'            " Vim gitgutter
-Plug 'https://github.com/vim-airline/vim-airline'           " vim-airline Status bar
-Plug 'vim-airline/vim-airline-themes'                       " vim-airline-themes
-Plug 'https://github.com/ap/vim-css-color'                  " CSS Color Preview
-Plug 'machakann/vim-highlightedyank'                        " vim-highlightedyank
-Plug 'itchyny/vim-cursorword'                               " vim-hightlight_under_cursor
-Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Auto Completion
-" Plug 'https://github.com/tc50cal/vim-terminal'              " Vim Terminal
-Plug 'https://github.com/preservim/tagbar'                  " Tagbar for code navigation
-Plug 'nvim-tree/nvim-web-devicons'                          " Fork of Developer Icons for Tabs
-Plug 'romgrk/barbar.nvim'                                   " Tabs plugin
-Plug 'https://github.com/ryanoasis/vim-devicons'            " Developer Icons
-Plug 'https://github.com/rafi/awesome-vim-colorschemes'     " Retro colorschemes
 " Plug 'https://github.com/terryma/vim-multiple-cursors'      " CTRL + N for multiple cursors
+" Plug 'https://github.com/tc50cal/vim-terminal'              " Vim Terminal
+" Plug 'https://github.com/preservim/nerdcommenter'           " NERDCommenter
+" Plug 'junegunn/fzf.vim'                                     " fzf plugin
+" Plug 'yamatsum/nvim-cursorline'                             " vim-hightlight_under_cursor
+
+" Tim Pope Plugins
+Plug 'tpope/vim-surround'                                   " Surrounding ysw)
+Plug 'tpope/vim-commentary'                                 " For Commenting gcc & gc
+Plug 'tpope/vim-fugitive'                                   " Vim Fugitive
+
+" Editor UI Plugins
+Plug 'sheerun/vim-polyglot'                                 " Vim-Polyglot
+Plug 'godlygeek/tabular'                                    " Tabular text alignment
+Plug 'nvim-treesitter/nvim-treesitter'                      " Treesitter Syntax highlighting
+Plug 'ryanoasis/vim-devicons'                               " Developer Icons
+Plug 'nvim-tree/nvim-web-devicons'                          " Fork of Developer Icons for Tabs
+Plug 'rafi/awesome-vim-colorschemes'                        " Retro colorschemes
+Plug 'ap/vim-css-color'                                     " CSS Color Preview
+Plug 'itchyny/vim-cursorword'                               " vim-hightlight_under_cursor
+
+" Status Line Plugins
+Plug 'vim-airline/vim-airline'                              " vim-airline Status bar
+Plug 'vim-airline/vim-airline-themes'                       " vim-airline-themes
+
+" Editing Plugins
+Plug 'chun-yang/auto-pairs'                                 " Auto Pairs Plugin
+Plug 'ntpeters/vim-better-whitespace'				        " Trim Whitespaces Plugin
+Plug 'scrooloose/nerdtree'                                  " NERDTree Plugin
+Plug 'airblade/vim-gitgutter'                               " Vim gitgutter
+Plug 'machakann/vim-highlightedyank'                        " vim-highlightedyank
+Plug 'preservim/tagbar'                                     " Tagbar for code navigation
+Plug 'romgrk/barbar.nvim'                                   " Tabs plugin
+
+" COC for Nvim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Auto Completion
 
 set encoding=UTF-8
 
@@ -152,9 +168,6 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
-
-" lua integration
-" lua require('base')
 
 " Coc Config
 " May need for vim (not neovim) since coc.nvim calculate byte offset by count
