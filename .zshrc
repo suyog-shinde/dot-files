@@ -6,6 +6,15 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _complete _ignored _correct _approximate
+zstyle :compinstall filename '/home/ss/.zshrc'
+
+autoload -Uz compinit
+compinit
+
+# End of lines added by compinstall
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -132,14 +141,3 @@ alias tomjerry='mpv /mnt/HDD/DC++/TV\ Series/Tom\ and\ Jerry\ Classic/ --shuffle
 alias friends='mpv /mnt/HDD/DC++/TV\ Series/F.R.I.E.N.D.S\ \ 720p\ HEVC\ Complete/ --shuffle'
 alias mrrobot='mpv /mnt/HDD/DC++/TV\ Series/MrRobot/'
 
-
-
-
-# The following lines were added by compinstall
-
-zstyle ':completion:*' completer _complete _ignored _correct _approximate
-zstyle :compinstall filename '/home/ss/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
