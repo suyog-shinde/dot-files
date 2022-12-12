@@ -56,7 +56,7 @@ let g:loaded_perl_provider = 0
 " 0 : disable it
 let g:loaded_ruby_provider = 0
 
-call plug#begin("/home/ss/.config/nvim/plugged")
+call plug#begin('/home/ss/.config/nvim/plugged')
 
 " Plug 'https://github.com/terryma/vim-multiple-cursors'      " CTRL + N for multiple cursors
 " Plug 'https://github.com/tc50cal/vim-terminal'              " Vim Terminal

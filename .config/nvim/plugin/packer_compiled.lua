@@ -99,11 +99,6 @@ _G.packer_plugins = {
     path = "/home/ss/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/scrooloose/nerdtree"
   },
-  ["nvim-cursorline"] = {
-    loaded = true,
-    path = "/home/ss/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
-    url = "https://github.com/yamatsum/nvim-cursorline"
-  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/ss/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -144,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/ss/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
   },
+  ["vim-better-whitespace"] = {
+    loaded = true,
+    path = "/home/ss/.local/share/nvim/site/pack/packer/start/vim-better-whitespace",
+    url = "https://github.com/ntpeters/vim-better-whitespace"
+  },
   ["vim-commentary"] = {
     loaded = true,
     path = "/home/ss/.local/share/nvim/site/pack/packer/start/vim-commentary",
@@ -153,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ss/.local/share/nvim/site/pack/packer/start/vim-css-color",
     url = "https://github.com/ap/vim-css-color"
+  },
+  ["vim-cursorword"] = {
+    loaded = true,
+    path = "/home/ss/.local/share/nvim/site/pack/packer/start/vim-cursorword",
+    url = "https://github.com/itchyny/vim-cursorword"
   },
   ["vim-devicons"] = {
     loaded = true,
