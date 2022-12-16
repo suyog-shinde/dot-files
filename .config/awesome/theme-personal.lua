@@ -327,7 +327,6 @@ function theme.at_screen_connect(s)
             -- System Tray --
             layout = wibox.layout.fixed.horizontal,
             wibox.widget.systray(),
-            keyboardlayout,
             spr,
 
             -- Spotify shell /usr/local/bin/sp

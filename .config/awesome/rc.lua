@@ -73,13 +73,26 @@ end
 
 run_once({ "urxvtd", "unclutter -root" }) -- comma-separated entries
 
+-- Autostart Applications --
+
+-- awful.spawn.with_shell("picom")
+run_once({
+    "picom",
+    "nm-applet",
+    "blueman-applet",
+    "xfce4-clipman",
+    "xfce4-screensaver",
+    "xfce4-power-manager",
+    "optimus-manager-qt"
+})
+
 -- This function implements the XDG autostart specification
-awful.spawn.with_shell(
-    'if (xrdb -query | grep -q "^awesome\\.started:\\s*true$"); then exit; fi;' ..
-    'xrdb -merge <<< "awesome.started:true";' ..
-    -- list each of your autostart commands, followed by ; inside single quotes, followed by ..
-    'dex --environment Awesome --autostart --search-paths "$XDG_CONFIG_DIRS/autostart:$XDG_CONFIG_HOME/autostart"' -- https://github.com/jceb/dex
-)
+-- awful.spawn.with_shell(
+--     'if (xrdb -query | grep -q "^awesome\\.started:\\s*true$"); then exit; fi;' ..
+--     'xrdb -merge <<< "awesome.started:true";' ..
+--     -- list each of your autostart commands, followed by ; inside single quotes, followed by ..
+--     'dex --environment Awesome --autostart --search-paths "$XDG_CONFIG_DIRS/autostart:$XDG_CONFIG_HOME/autostart"' -- https://github.com/jceb/dex
+-- )
 
 -- }}}
 
@@ -271,11 +284,11 @@ globalkeys = mytable.join(
               {description = "destroy all notifications", group = "hotkeys"}),
     -- Take a screenshot
     -- https://github.com/lcpz/dots/blob/master/bin/screenshot
-    awful.key({ altkey }, "p", function() os.execute("screenshot") end,
+    awful.key({ altkey }, "p", function() awful.spawn.with_shell("xfce4-screenshooter") end,
               {description = "take a screenshot", group = "hotkeys"}),
 
     -- X screen locker
-    awful.key({ altkey, "Control" }, "l", function () os.execute(scrlocker) end,
+    awful.key({ altkey, "Control" }, "l", function () awful.spawn.with_shell(xflock4) end,
               {description = "lock screen", group = "hotkeys"}),
 
     -- Show help
@@ -396,6 +409,11 @@ globalkeys = mytable.join(
     -- Standard program
     awful.key({ modkey,           }, "x", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
+    awful.key({ modkey,           }, "-", function () awful.spawn.with_shell("pavucontrol") end,
+              {description = "open pavucontrol", group = "launcher"}),
+    awful.key({ modkey,           }, "0", function () awful.spawn("spotify-adblock") end,
+              {description = "open spotify", group = "launcher"}),
+
     awful.key({ modkey,           }, "e", function () awful.spawn(file_system) end,
               {description = "open filesystem", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
@@ -415,8 +433,8 @@ globalkeys = mytable.join(
               {description = "increase the number of columns", group = "layout"}),
     awful.key({ modkey, "Control" }, "l",     function () awful.tag.incncol(-1, nil, true)    end,
               {description = "decrease the number of columns", group = "layout"}),
-    awful.key({ modkey, "Control" }, "space", function () awful.layout.inc( 1)                end,
-              {description = "select next", group = "layout"}),
+    -- awful.key({ modkey, "Control" }, "space", function () awful.layout.inc( 1)                end,
+    --           {description = "select next", group = "layout"}),
     awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(-1)                end,
               {description = "select previous", group = "layout"}),
 
@@ -554,18 +572,18 @@ globalkeys = mytable.join(
 
     -- -- Prompt
     awful.key({ modkey }, "r", function () awful.screen.focused().mypromptbox:run() end,
-              {description = "run prompt", group = "launcher"})
+              {description = "run prompt", group = "launcher"}),
 
-    -- awful.key({ modkey }, "x",
-    --           function ()
-    --               awful.prompt.run {
-    --                 prompt       = "Run Lua code: ",
-    --                 textbox      = awful.screen.focused().mypromptbox.widget,
-    --                 exe_callback = awful.util.eval,
-    --                 history_path = awful.util.get_cache_dir() .. "/history_eval"
-    --               }
-    --           end,
-    --           {description = "lua execute prompt", group = "awesome"})
+    awful.key({ modkey, "Shift" }, "x",
+              function ()
+                  awful.prompt.run {
+                    prompt       = "Run Lua code: ",
+                    textbox      = awful.screen.focused().mypromptbox.widget,
+                    exe_callback = awful.util.eval,
+                    history_path = awful.util.get_cache_dir() .. "/history_eval"
+                  }
+              end,
+              {description = "lua execute prompt", group = "awesome"})
 )
 
 clientkeys = mytable.join(
